@@ -1,0 +1,10 @@
+{
+  "name": "moodle-atto_menutab-button",
+  "builds": {
+    "moodle-atto_menutab-button": {
+      "jsfiles": [
+        "button.js"
+      ]
+    }
+  }
+}
