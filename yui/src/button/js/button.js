@@ -24,7 +24,7 @@
  */
 
 /**
- * Atto text editor gftabs plugin.
+ * Atto text editor menutab plugin.
  *
  * @namespace M.atto_menutab
  * @class button
@@ -34,9 +34,9 @@
 Y.namespace('M.atto_menutab').Button = Y.Base.create('button', Y.M.editor_atto.EditorPlugin, [], {
     initializer: function () {
 
-        // Check whether we are editing a label within the Glendon course format.
+        // Check whether we are editing a label within the menutab course format.
         var form = this.get('host').editor.ancestor('body#page-mod-label-mod.format-menutab');
-        // Only add plugin if this is a label wihtin the Glendon course format.
+        // Only add plugin if this is a label wihtin the menutab course format.
         if (!form) {
             return;
         }
@@ -50,7 +50,7 @@ Y.namespace('M.atto_menutab').Button = Y.Base.create('button', Y.M.editor_atto.E
     },
 
     /**
-     * Change the gftabs to the specified style.
+     * Change the menutab to the specified style.
      *
      * @method _changeStyle
      * @param {EventFacade} e

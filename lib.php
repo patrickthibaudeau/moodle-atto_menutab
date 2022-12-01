@@ -17,14 +17,14 @@
 /**
  * Atto text editor integration version file.
  *
- * @package    atto_gftabs
+ * @package    atto_menutab
  * @copyright  2020 IT Innovation Lab, York University
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-function atto_gftabs_strings_for_js() {
+function atto_menutab_strings_for_js() {
     global $PAGE;
 
     $PAGE->requires->strings_for_js(array('tab'), 'atto_menutab');

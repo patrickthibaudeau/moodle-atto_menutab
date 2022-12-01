@@ -17,14 +17,14 @@
 /**
  * Atto text editor integration version file.
  *
- * @package    atto_gftabs
+ * @package    atto_menutab
  * @copyright  2020 IT Innovation Lab, York University
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2022112900;        // The current plugin version (Date: YYYYMMDDXX).
+$plugin->version   = 2022120102;        // The current plugin version (Date: YYYYMMDDXX).
 $plugin->requires  = 2022041900;        // Requires this Moodle version.
 $plugin->component = 'atto_menutab';  // Full name of the plugin (used for diagnostics).
 $plugin->dependencies = [

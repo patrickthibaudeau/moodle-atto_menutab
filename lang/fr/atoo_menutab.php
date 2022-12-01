@@ -17,7 +17,7 @@
 /**
  * Atto text editor integration version file.
  *
- * @package    atto_gftabs
+ * @package    atto_menutab
  * @copyright  2020 IT Innovation Lab, York University
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
